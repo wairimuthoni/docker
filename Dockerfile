@@ -13,3 +13,4 @@ EXPOSE 80
 #run apache in foreground
 #CMD service apache2 start
 CMD ["apachectl", "-D", "FOREGROUND"]
+#Finished
