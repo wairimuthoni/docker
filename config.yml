@@ -1,5 +1,6 @@
-version: 1
 machine:
+  postgres:
+    version: 9.6
   services:
     - docker
 
