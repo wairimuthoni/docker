@@ -1,6 +1,6 @@
 machine:
-  postgres:
-    version: 9.6
+  apache2:
+    version: 2.4.27
   services:
     - docker
 
