@@ -8,6 +8,6 @@ dependencies:
 
 test:
   post:
-   - docker run -p 8080:4000 docker
-   - curl -v http://localhost:4000
+   - docker run -p 8080:4001 docker
+   - curl -v http://localhost:4001
 
