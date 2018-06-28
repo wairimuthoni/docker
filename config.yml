@@ -1,6 +1,6 @@
 machine:
-  apache2:
-    version: 2.4.27
+  php:
+    version: 2.7.14
   services:
     - docker
 
