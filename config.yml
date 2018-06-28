@@ -4,10 +4,10 @@ version: "2"
 
 dependencies:
   post:
-   - docker build -t docker .
+   - docker build -t install .
 
 test:
   post:
-   - docker run -p 8080:4001 docker
+   - docker run -p 8080:4001 install
    - curl -v http://localhost:4001
 
