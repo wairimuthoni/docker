@@ -1,6 +1,6 @@
 machine:
-  php:
-    version: 2.7.14
+  hosts:
+    local.example.com: 127.0.0.1
   services:
     - docker
 
